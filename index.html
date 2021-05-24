@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="body">
+    <button id="btn">Dark Mode</button>
+    <div id="analogClock">
+        <div class="hand handCol" id="hourHand"></div>
+        <div class="hand handCol" id="minHand"></div>
+        <div class="hand" id="secHand"></div>
+    </div>
+    <div id="digitalClock">
+        <div id="disTime">
+            <div class="time"></div>
+            <div class="timeZone"></div>
+        </div>
+        <div id="dayDate">
+            <div class="day"></div>
+            <div class="date"></div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
